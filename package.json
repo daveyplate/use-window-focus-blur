@@ -1,8 +1,8 @@
 {
-  "name": "@leakeddave/my-test-package",
-  "homepage": "https://github.com/LeakedDave/my-test-package",
-  "version": "1.0.4",
-  "description": "",
+  "name": "@daveyplate/use-window-focus-blur",
+  "homepage": "https://github.com/daveyplate/use-window-focus-blur",
+  "version": "1.0.0",
+  "description": "Fixes the issue with blue outlines appearing when the window gets refocused in certain UI frameworks.",
   "module": "src/index",
   "types": "dist/index",
   "files": [
@@ -13,10 +13,24 @@
     "build": "npx tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "focus",
+    "blur",
+    "window",
+    "outline",
+    "css",
+    "ui",
+    "framework",
+    "fix",
+    "blue"
+  ],
   "author": "LeakedDave",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
   }
 }
