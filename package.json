@@ -1,7 +1,7 @@
 {
   "name": "@daveyplate/use-window-focus-blur",
   "homepage": "https://github.com/daveyplate/use-window-focus-blur",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fixes the issue with blue outlines appearing when the window gets refocused in certain UI frameworks.",
   "module": "dist/index",
   "types": "dist/index",
